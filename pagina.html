@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="estilos.css" >
-    <link rel="stylesheet" href="normalice.css" >
-    
+     <!-- <link rel="stylesheet" href="estilosgenerales.css" > -->
 </head>
 
 <body>
     <header class="hola">
         <div class="container">
             <nav class="nav">
-                <a href="#" class="nav_items nav_items--cta">Contactame</a>
-                <a href="#" class="nav_items">Acerca de </a>
-                <a href="#" class="nav_items"> Servicios </a>
-                <a href="#" class="nav_items">Proyectos</a>
+                <a href="#" target="_blank" class="nav_items nav_items--cta">Inicio</a>               
+                <a href="#sobremi" class="nav_items">Sobre mí </a>
+                <a href="#proyectos" class="nav_items">Galería</a>
+                <a href="videos.html" class="nav_items"> Vídeos </a>
+                <a href="formularioContacto.html" class="nav_items"> Contacto </a>                            
+
             </nav>
 
             <section class="hola_container">
                 <div class="hola_texts">
-                    <h1 class="hola_title">Hola Soy David Mendez FOTOGRAFO PROFESIONAL</h1>
-                    <h2 class="hola_subtitle">Transformando ideas en realidades</h2>
-                    <a href="#" class="hola_cta">Contactame Ahora</a>
+                    <h1 class="hola_title">David Mendoza FOTOGRAFO PROFESIONAL</h1>
+                    <h2 class="hola_subtitulo">Transformando ideas en realidades</h2>
+                    <a href="formularioContacto.html" class="hola_cta">Contactame Ahora</a>
                 </div>
                 
             </section>
@@ -35,91 +35,109 @@
     </header>
 
     <main>
-        <section class="presentacion container">
+        <section class="presentacion container" id="sobremi">
             <img src="imagen/hombre.jpg" alt="ofinica" class="presentacion_picture">
-            <h2 class="subtitle">Mi Nombre es: David Mendez</h2>
-            <p class="presentacion_copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim illo repellat
-                dolorum beatae, sequi eum itaque aliquid distinctio. Fugit deserunt nobis reiciendis suscipit? Rem
-                exercitationem delectus libero quos ab consectetur.
-                <a href="#" class="presentacion_cta">Contactame Ahora</a>
+            <h2 class="subtitulo">Mi nombre es David Mendoza</h2>
+            <p class="c_parafo">La fotografía es mi pasión.
+                De niño me gustaba observar las fotografías antiguas en blanco y negro. En la adolescencia peregrinaba las cinco o seis empresas cinematográficas de la ciudad donde nací.
+            </p> 
+            <p class="c_parafo">
+                Un apasionado de la belleza que hay en la sencillez de las cosas. Seguidor férreo de la física cuática de la teoría que el universo está repleto de posibilidades. Amante de la buena gastronomía y las conversaciones interesantes,  padre y un fotógrafo creativo.
             </p>
+            <a href="formularioContacto.html" class="presentacion_cta">Contactame Ahora</a>
+
         </section>
 
         <section class="about container">
-            <div class="about_texts">
-                <h2 class="subtitle">Mis habilidades</h2>
-                <p class="about_parafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, magnam? Minima
-                    deserunt dignissimos aut! Ipsa debitis hic fuga, iusto repudiandae ab ea minus vitae qui soluta
-                    quod, sint, pariatur illum?</p>
-                <p class="about_parafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi recusandae
-                    dolorum animi vel, nesciunt tempore! Ducimus, eveniet non! Eos dicta iure quod totam ad ipsam
-                    voluptates natus ea, commodi similique.</p>
+            <div class="c_texts">
+                <h2 class="subtitulo">Mis habilidades</h2>
+                <p class="c_parafo">A partir de lo que todos ven, ¡pensamos lo que nadie pensó!</p>
+                <p class="c_parafo">Los diseñadores de moda, empresas del sector textil, y accesorios de moda y calzado entre otros sectores necesitan añadir nuevos productos a su marca a menudo y mejorar su imagen a través de campañas, catálogos, lookbooks o fotografía de producto..</p>
             </div>
 
-            <figure class="about_img">
-                <img src="imagen/img4.jpg" class="about_picture">
+            <figure class="c_img">
+                <img src="imagen/habilidades.jpg" class="c_picture"/>
             </figure>
 
-            <figure class="about_img about_img--left">
-                <img src="imagen/img5.jpg" class="about_picture">
+            <figure class="c_img c_img--left">
+                <img src="imagen/book.jpg" class="c_picture">
             </figure>
 
-            <div class="about_texts">
-                <h2 class="subtitle">Lorem Lorem</h2>
-                <p class="about_parafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, magnam? Minima
-                    deserunt dignissimos aut! Ipsa debitis hic fuga, iusto repudiandae ab ea minus vitae qui soluta
-                    quod, sint, pariatur illum?</p>
-                <p class="about_parafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi recusandae
+            <div class="c_texts">
+                <h2 class="subtitulo">Fotografía de Book</h2>
+                <p class="c_parafo">Las fotografías de lookbook permiten que la marca muestre un outfit completo y por lo tanto le puede generar venta cruzada. Los más usados son los cenitales o knolling y también las fotografías de lookbook con modelos.</p>
+                <p class="c_parafo"></p>
+            </div>
+        </section>
+        <section class="about container">
+            <div class="c_texts">
+                <h2 class="subtitulo">Fotografía de Campaña</h2>
+                <p class="c_parafo">Las fotografías de campaña van destinadas a la web, o rrss de una marca. Para plasmar la idea usamos el moodboard inspiracional, donde se indican estilos de maquillaje, peluquería, el acting del/ la modelo, si es en localización o estudio, etc. Con este moodboard todo el equipo sabe la idea a conseguir en el shooting y lo que tienen que hacer.</p>
+                <p class="c_parafo"></p>
+            </div>
+
+            <figure class="c_img">
+                <img src="imagen/campaña.jpg" class="c_picture"/>
+            </figure>
+
+            <figure class="c_img c_img--left">
+                <img src="imagen/beauty.jpg" class="c_picture">
+            </figure>
+
+            <div class="c_texts">
+                <h2 class="subtitulo">Fotografía de Book</h2>
+                <p class="c_parafo">Las fotografías de lookbook permiten que la marca muestre un outfit completo y por lo tanto le puede generar venta cruzada. Los más usados son los cenitales o knolling y también las fotografías de lookbook con modelos.</p>
+                <p class="c_parafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi recusandae
                     dolorum animi vel, nesciunt tempore! Ducimus, eveniet non! Eos dicta iure quod totam ad ipsam
                     voluptates natus ea, commodi similique.</p>
             </div>
         </section>
 
-        <section class="projects">
+        <section class="proyectos" id="proyectos">
             <div class="container">
-                <h2 class="subtitle">Lorem Lorem</h2>
-                <div class="projects_grid">
+                <h2 class="subtitulo">GALERÍA</h2>
+                <div class="proyectos_grid">
 
-                    <article class="projects_item">
-                        <img src="imagen/img1.jpg" class="projects_img">
-                        <div class="projects_hover">
-                            <h2 class="projects_title">Proyecto</h2>
-                            <i class="far fa-file-alt projects_icon"></i>
+                    <article class="proyectos_item">
+                        <img src="imagen/chica2.jpg" class="proyectos_img">
+                        <div class="proyectos_hover">
+                            <h2 class="proyectos_title">Proyecto</h2>
+                            <i class="far fa-file-alt proyectos_icon"></i>
                         </div>
 
                     </article>
-                    <article class="projects_item">
-                        <img src="imagen/img2.jpg" class="projects_img">
-                        <div class="projects_hover">
-                            <h2 class="projects_title">Proyecto</h2>
-                            <i class="far fa-file-alt projects_icon"></i>
-                        </div>
-
-                    </article>
-
-                    <article class="projects_item">
-                        <img src="imagen/img3.jpg" class="projects_img">
-                        <div class="projects_hover">
-                            <h2 class="projects_title">Proyecto</h2>
-                            <i class="far fa-file-alt projects_icon"></i>
+                    <article class="proyectos_item">
+                        <img src="imagen/chico1.jpg" class="proyectos_img">
+                        <div class="proyectos_hover">
+                            <h2 class="proyectos_title">Proyecto</h2>
+                            <i class="far fa-file-alt proyectos_icon"></i>
                         </div>
 
                     </article>
 
-                    <article class="projects_item">
-                        <img src="imagen/img4.jpg" class="projects_img">
-                        <div class="projects_hover">
-                            <h2 class="projects_title">Proyecto</h2>
-                            <i class="far fa-file-alt projects_icon"></i>
+                    <article class="proyectos_item">
+                        <img src="imagen/img3.jpg" class="proyectos_img">
+                        <div class="proyectos_hover">
+                            <h2 class="proyectos_title">Proyecto</h2>
+                            <i class="far fa-file-alt proyectos_icon"></i>
                         </div>
 
                     </article>
 
-                    <article class="projects_item">
-                        <img src="imagen/img5.jpg" class="projects_img">
-                        <div class="projects_hover">
-                            <h2 class="projects_title">Proyecto</h2>
-                            <i class="far fa-file-alt projects_icon"></i>
+                    <article class="proyectos_item">
+                        <img src="imagen/boda.jpg" class="proyectos_img">
+                        <div class="proyectos_hover">
+                            <h2 class="proyectos_title">Proyecto</h2>
+                            <i class="far fa-file-alt proyectos_icon"></i>
+                        </div>
+
+                    </article>
+
+                    <article class="proyectos_item">
+                        <img src="imagen/img5.jpg" class="proyectos_img">
+                        <div class="proyectos_hover">
+                            <h2 class="proyectos_title">Proyecto</h2>
+                            <i class="far fa-file-alt proyectos_icon"></i>
                         </div>
 
                     </article>
@@ -132,49 +150,29 @@
 
 
     <footer class="footer">
-        <div class="container footer_grid"> 
-        <nav class="nav nav--footer">
-            <a class="nav_item nav_item--footer" href="">Inicio</a>
-            <a class="nav_item nav_item--footer" href="">Sobre mi</a>
-            <a class="nav_item nav_item--footer" href=""></a>
-             <a class="nav_item nav_item--footer" href="">Proyectos</a>
-        
-        </nav>
-        
+        <div class="container footer_grid">         
         <section class="footer_contact">
-            <h3 class="footer_title">Contactame</h3>
+            <p class="footer_title">SÍGUEME EN MIS REDES SOCIALES:</h5>
             <div class="footer_icons">
             <span class="footer_container-icons">
-
-                <a class="fa-brands fa-whatsapp footer_icons" href="#"></a>
-
-            </span>
-        
-
-        
-
+                <a class="fa-brands fa-whatsapp footer_icons" href="https://api.whatsapp.com/send?phone=591760tel:623327583"></a>
+            </span>                
             <span class="footer_container-icons">
-                <a class="fa-brands fa-facebook-square footer_icons" href="#"></a>
-
+                <a class="fa-brands fa-facebook-square footer_icons" href="https://www.facebook.com/" target="_blank"></a>
             </span>
-
             <span class="footer_container-icons">
-                <a class="fa-brands fa-twitter footer_icons" href="#"></a>
-
+                <a class="fa-brands fa-twitter footer_icons" href="https://twitter.com/" target="_blank"></a>
             </span>
-
-            </div>
-
+          </div>
+          <div class="copyrigth"><p>© David Mendoza 2022</p></div> 
         </section>
+        
         </div>
+        
     </footer>
 
 
-
-
-
-
-
+<!-- iconos para redes sociales-->
     <script src="https://kit.fontawesome.com/0beee1a4ae.js" crossorigin="anonymous"></script>
 </body>
 
