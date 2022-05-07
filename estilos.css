@@ -155,7 +155,7 @@ height:100px
     line-height: 1.5;
     font-weight: 300;
 }
-/*Proyecctos*/
+/*Proyecctos Galeria*/
 .proyectos{
     background: #b9b7b7;
 }
@@ -426,3 +426,6 @@ footer a:link {
           height: auto;
           float:right;
       }
+      iframe{
+        border-width: 0px;
+    }
